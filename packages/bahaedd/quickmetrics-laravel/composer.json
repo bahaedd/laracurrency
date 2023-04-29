@@ -1,0 +1,22 @@
+{
+    "name": "bahaedd/quickmetrics",
+    "description": "Laravel first package",
+    "autoload": {
+        "psr-4": {
+            "Bahaedd\\Quickmetrics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bahaeddine"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bahaedd\\Quickmetrics\\QuickmetricsServiceProvider"
+            ]
+        }   
+    }
+}
